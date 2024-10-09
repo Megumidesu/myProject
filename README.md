@@ -48,7 +48,9 @@ cd workspace
 python dataset/preprocess/airplane.py
 python train.py
 ```
+All parameters related to training are in config.py
 Testing
+Please first modify the parameters img_path and checkpoint_path in test.py
 ```
 python test.py
 ```
