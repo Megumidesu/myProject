@@ -24,7 +24,7 @@ Please put the pre-trained models in the vit_model folder. The folder should loo
 │   │   │   ├── ...
 ```
 
-**Sentence-Transformers:**
+* **Sentence-Transformers:**
 
 ```
 链接: https://pan.baidu.com/s/1umvg1MAlWeGmTdEMAO-arw 提取码: wqt3
