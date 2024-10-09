@@ -15,6 +15,14 @@ pip install -r requirements.txt
 ```
 
 ## Pre-trained Models Download
+Please put the pre-trained models in the vit_model folder. The folder should look like this:
+```
+├── vit_model
+│   ├── jx_vit_base_p16_224-80ecf9dd.pth
+│   │   ViT-B-16.pt
+│   │   all-mpnet-base-v2
+│   │   │   ├── ...
+```
 
 **Sentence-Transformers:**
 
@@ -48,7 +56,6 @@ cd workspace
 python dataset/preprocess/airplane.py
 python train.py
 ```
-All parameters related to training are in config.py
 Testing
 Please first modify the parameters img_path and checkpoint_path in test.py
 ```
