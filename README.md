@@ -56,7 +56,7 @@ cd workspace
 python dataset/preprocess/airplane.py
 python train.py
 ```
-* **Testing**
+* **Testing**:
 Please first modify the parameters img_path and checkpoint_path in test.py
 ```
 python test.py
