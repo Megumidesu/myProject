@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ```
 链接: https://pan.baidu.com/s/1umvg1MAlWeGmTdEMAO-arw 提取码: wqt3
 ```
-**or**
+or
 ```
 git clone https://huggingface.co/sentence-transformers/all-mpnet-base-v2
 ```
@@ -33,7 +33,7 @@ git clone https://huggingface.co/sentence-transformers/all-mpnet-base-v2
 
 ## Training and Testing 
 Training
-1. Please put it in the dataset folder. The folder should look like this:
+1. Please put your dataset in the dataset folder. The folder should look like this:
 ```
 ├── dataset
 │   ├── images
