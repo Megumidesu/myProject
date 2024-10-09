@@ -40,7 +40,7 @@ git clone https://huggingface.co/sentence-transformers/all-mpnet-base-v2
 ```
 
 ## Training and Testing 
-Training
+* Training
 1. Please put your dataset in the dataset folder. The folder should look like this:
 ```
 ├── dataset
@@ -56,7 +56,7 @@ cd workspace
 python dataset/preprocess/airplane.py
 python train.py
 ```
-Testing
+* Testing
 Please first modify the parameters img_path and checkpoint_path in test.py
 ```
 python test.py
