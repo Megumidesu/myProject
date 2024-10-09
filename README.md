@@ -21,7 +21,7 @@ pip install -r requirements.txt
 ```
 链接: https://pan.baidu.com/s/1umvg1MAlWeGmTdEMAO-arw 提取码: wqt3
 ```
-*or*
+**or**
 ```
 git clone https://huggingface.co/sentence-transformers/all-mpnet-base-v2
 ```
