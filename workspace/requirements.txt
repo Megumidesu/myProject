@@ -1,0 +1,12 @@
+scipy
+torch
+torchvision
+tqdm
+easydict
+numpy<2.0.0
+Pillow
+sentence_transformers
+tensorboardX
+ftfy
+regex
+matplotlib
