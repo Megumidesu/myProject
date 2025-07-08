@@ -5,7 +5,7 @@ from models.vit import *
 # from CLIP.CoOp import *
 device = "cuda" if torch.cuda.is_available() else "cpu"
 class TransformerClassifier(nn.Module):
-    def __init__(self, attr_num, attr_words, dim=768, pretrain_path='/root/autodl-tmp/vit_model/jx_vit_base_p16_224-80ecf9dd.pth'):
+    def __init__(self, attr_num, attr_words, dim=768, pretrain_path='../vit_model/jx_vit_base_p16_224-80ecf9dd.pth'):
         super().__init__()
         super().__init__()
         self.attr_num = attr_num #属性数量
